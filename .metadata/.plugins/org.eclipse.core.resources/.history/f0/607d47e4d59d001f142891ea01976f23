@@ -4,8 +4,7 @@ public class trazasEntornos {
 
 	public static void main(String[] args) {
 	        int a, b, menor, mcd;
-	        @SuppressWarnings("resource")
-			Scanner sc = new Scanner(System.in);
+	        Scanner sc = new Scanner(System.in);
 	        
 	        System.out.print("Introduce un número: ");
 	        a = sc.nextInt();
