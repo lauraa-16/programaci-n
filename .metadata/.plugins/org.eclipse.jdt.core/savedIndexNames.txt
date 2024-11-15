@@ -10,7 +10,6 @@ INDEX VERSION 1.134+C:\Users\laura\eclipse-workspace\.metadata\.plugins\org.ecli
 345804389.index
 972223647.index
 935486130.index
-4095590134.index
 52003776.index
 2021708758.index
 3493110294.index
