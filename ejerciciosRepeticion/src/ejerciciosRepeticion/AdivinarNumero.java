@@ -3,36 +3,56 @@ package ejerciciosRepeticion;
 import java.util.Scanner;
 import java.util.Random;
 public class AdivinarNumero {
-
-	  public static void main(String[] args) { 
-	    
-	    //insertamos un scan para tomar los numeros que va a introducir el usuario
-	    Scanner scan = new Scanner(System.in);
-	    //Insertamos el random
-	    Random aleatorio = new Random();
-	    
-	    //creamos la variable random y la convertimos a int
-	    int numeroAleatorio = aleatorio.nextInt(1,100);
-	    
-	    System.out.printf("He pensado un numero entre 1 y 100. Quieres jugar? Y / N");
-	    //if ( )
-	    //Tenemos que empezar a descontar numeros
-	    int intento = 0; 
-	    //Le decimos que empiece
-	    System.out.printf("Tienes 10 intentos, empieza con tu primer intento:%n");
-	    int numero = Integer.parseInt(scan.nextLine());
-	    for (int contador = 0 ; numero == numeroAleatorio; contador++){
-	      if( numero == numeroAleatorio) {
-	        System.out.printf("Lo has adivinado, tremendo.");
-	      }else if (numero != numeroAleatorio){ 
-	    //empieza el ciclo de intentos funcional
-	    for (int i = intento; intento < 10  ; intento++) {
-	      System.out.printf("Intento %d. Prueba de nuevo.", intento);
-	      boolean numero2 = Integer.parseInt(scan.nextLine()) == numero;     
-	      }
-	     }
-	    //Ahora debemos agregar el contador de que en cuantos intentos los has hecho y debemos agregar un reintento.
-	  }
-	 }   
-	}
+	 public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+		 //Titulo del ejercicio
+		 System.out.println("ADIVINA EL NÚMERO");
+		 //Variables
+		 int numero = 0;
+		 int seguir = 0;
+		 int i;
+		 do {
+		 System.out.println("NUEVO JUEGO");
+		 //Creamos el número random
+		 Random random = new Random();
+		 int numeroRandom = random.nextInt(100) + 1;
+		 System.out.println("He pensado un numero entre 1 y 100. Intenta adivinarlo");
+		 i = 1;
+		 do {
+		 //Pedimos el número a comparar
+		 System.out.printf("Intento %d. Introduce un número entre 1 y 100: ", i);
+		 numero = Integer.parseInt(sc.nextLine());
+		 if(numero == numeroRandom) {
+		 System.out.printf("Has acertado en %d intentoS. El número era %d%n", i,
+		 numeroRandom);
+		 } else {
+		 if(numero < numeroRandom) {
+		 System.out.printf("El número es mayor que %d%n", numero);
+		 i++;
+		 } else {
+		 System.out.printf("El número es menor que %d%n", numero);
+		 i++;
+		 }
+		 }
+		 } while(i <= 10 && numero != numeroRandom);
+		 if(i > 10) {
+		 System.out.printf("Has fallado el número era %d%n", numeroRandom);
+		 }
+		 //Preguntamos si quiere otro juego
+		 System.out.print("¿Quieres jugar otra partida (s/n)?: ");
+		 String jugar = sc.nextLine();
+		 switch(jugar) {
+		case "s":
+		 seguir = 1;
+		 break;
+		 case "n":
+		 seguir = 0;
+		 break;
+		 default:
+		 System.out.println("No se ha indicado correctamente");
+		 break;
+		 }
+		 } while(seguir == 1);
+		 }
+}
 
