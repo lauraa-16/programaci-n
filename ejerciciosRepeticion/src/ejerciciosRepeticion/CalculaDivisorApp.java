@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CalculaDivisorApp {
 	public static void main(String[] args) { 
 	    
-	    System.out.println("    Calcula Divisor      ");
+	    System.out.println(" Calcular Divisor ");
 	    
 	    Scanner sc = new Scanner(System.in);
 	    System.out.print("Introduce un número entero para que calcule sus divisores: ");
