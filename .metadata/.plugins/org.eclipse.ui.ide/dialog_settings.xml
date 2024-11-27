@@ -18,7 +18,11 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+<<<<<<< HEAD
 			<item value="C:\Users\laura\eclipse-workspace\programaci-n"/>
+=======
+			<item value="C:\Users\laura\Downloads\Actividad_4.02_solucion"/>
+>>>>>>> 3257b15ffb7cc6b0b1fc9e61c27fec1e4802ebc6
 			<item value="C:\Users\laura\Desktop\src"/>
 			<item value="C:\Users\laura\eclipse-workspace"/>
 			<item value="C:\Users\laura\eclipse-workspace\r02e02"/>
@@ -32,6 +36,15 @@
 			<item key="DIALOG_WIDTH" value="935"/>
 			<item key="DIALOG_HEIGHT" value="726"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<section name="ExternalProjectImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="619"/>
+			<item key="DIALOG_Y_ORIGIN" value="142"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="710"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>
 	</section>
 </section>
