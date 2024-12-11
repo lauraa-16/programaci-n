@@ -53,7 +53,7 @@ public class Pizza {
    */
   private String estado; 
   /**
-   * Número total de pizzas creadas
+   * Número total de pizzas creadas 
    */
   private static int pizzasCreadas;
   /**
