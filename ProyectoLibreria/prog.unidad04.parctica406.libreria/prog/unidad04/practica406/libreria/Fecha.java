@@ -42,10 +42,10 @@ public class Fecha {
 	    }
 
 		//Formateo la fecha para que siga el patrón de día, mes y año con la clase DateTimeFormatter de java
-	    public String toString() {
+	    /*public String toString() {
 	        LocalDate fecha = LocalDate.of(anio, mes, dia);
 	        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d 'de' MMMM 'de' yyyy");
 	        return fecha.format(formatter);
-	    }
+	    }*/
 	    
 	}
