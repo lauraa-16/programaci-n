@@ -31,9 +31,13 @@ public class Fecha {
 		}
 		
 	//mira si el años es bisiesto o no con una comprobación de una clase default de java
-		public boolean esAnioBisiesto()  {
-			return java.time.Year.isLeap(anio);
-		}
+    public boolean esAnioBisiesto() {
+        if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 		
 		//uso una clase de java para contar los días entre una fecha y la fecha del sistema
 		public long diasDesde() {
@@ -47,5 +51,15 @@ public class Fecha {
 	        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d 'de' MMMM 'de' yyyy");
 	        return fecha.format(formatter);
 	    }*/
+		@Override
+		public String toString() {
+		    LocalDate fecha = LocalDate.of(anio, mes, dia);
+		    String[] meses = {
+		        "enero", "febrero", "marzo", "abril", "mayo", "junio", 
+		        "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+		    };
+		    return dia + " de " + meses[mes - 1] + " de " + anio;
+		}
+		//preguntar si es mejor este método o el time formatter para poner el día y el año con el mes en letras
 	    
 	}
