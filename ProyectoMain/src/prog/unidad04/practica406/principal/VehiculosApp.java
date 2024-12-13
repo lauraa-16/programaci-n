@@ -42,7 +42,7 @@ public class VehiculosApp {
 
             System.out.println("\nDatos del automóvil:");
             System.out.println(automovil);
-            System.out.println("Distintivo ambiental: " + automovil.obtenerDistintivoAmbiental());
+            System.out.println("Distintivo ambiental: " + automovil.getDistintivoAmbiental());
             System.out.println("Días desde matriculación: " + automovil.getFechaMatriculacion().diasDesde());
 
             System.out.println("\nDatos de la moto:");
