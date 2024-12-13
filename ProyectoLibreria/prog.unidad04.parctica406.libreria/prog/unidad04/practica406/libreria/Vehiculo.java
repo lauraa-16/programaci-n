@@ -24,15 +24,17 @@ public class Vehiculo implements MaquinaConDistintivoAmbiental {
         return vehiculosMatriculados;
     }
     
+    @Override
+	public String getDistintivoAmbiental() {
+		return "sin distintivo ambiental";
+	}
+    
     //override significa que estoy sobreescribiendo un comportamiento de la clase padre
     @Override
     public String toString() {
         return "Matricula: " + matricula + ", Fecha Matriculación: " + fechaMatriculacion.toString();
     }
 
-	@Override
-	public String obtenerDistintivoAmbiental() {
-		return null;
-	}
+	
 	
 }
