@@ -1,4 +1,4 @@
-package prog.unidad04.actividad402.ejercicio01.pruebas;
+package prog.unidad04.actividad402.ejercicio01.prueba;
 
 import prog.unidad04.actividad402.ejercicio01.Pizza;
 

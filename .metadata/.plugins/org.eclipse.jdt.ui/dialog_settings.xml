@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-21"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\laura\Desktop"/>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="quick_assist_proposal_size">
@@ -7,11 +10,11 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_X_ORIGIN" value="393"/>
 		<item key="DIALOG_Y_ORIGIN" value="9"/>
-		<item key="DIALOG_WIDTH" value="700"/>
-		<item key="DIALOG_HEIGHT" value="783"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_WIDTH" value="574"/>
+		<item key="DIALOG_HEIGHT" value="659"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
@@ -19,5 +22,236 @@
 	<section name="NewClassWizardPage">
 		<item key="create_constructor" value="false"/>
 		<item key="create_unimplemented" value="true"/>
+	</section>
+	<section name="JavaProjectWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="76"/>
+		<item key="DIALOG_Y_ORIGIN" value="85"/>
+		<item key="DIALOG_WIDTH" value="744"/>
+		<item key="DIALOG_HEIGHT" value="759"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewPackageCreationWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="225"/>
+		<item key="DIALOG_Y_ORIGIN" value="230"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="434"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="NewInterfaceCreationWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="198"/>
+		<item key="DIALOG_Y_ORIGIN" value="157"/>
+		<item key="DIALOG_WIDTH" value="579"/>
+		<item key="DIALOG_HEIGHT" value="543"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="JarPackageWizard">
+		<item key="JarPackageWizardPage.EXPORT_CLASS_FILES" value="true"/>
+		<item key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER" value="false"/>
+		<item key="JarPackageWizardPage.EXPORT_JAVA_FILES" value="false"/>
+		<item key="JarPackageWizardPage.REFACTORINGS" value="false"/>
+		<item key="JarPackageWizardPage.COMPRESS" value="true"/>
+		<item key="JarPackageWizardPage.INCLUDE_DIRECTORY_ENTRIES" value="false"/>
+		<item key="JarPackageWizardPage.OVERWRITE" value="false"/>
+		<item key="jarOptionsWizardPage.EXPORT_WARNINGS" value="true"/>
+		<item key="jarOptionsWizardPage.EXPORT_ERRORS" value="true"/>
+		<item key="jarOptionsWizardPage.STORE_USE_SRC_FOLDERS" value="false"/>
+		<item key="jarOptionsWizardPage.BUILD_IF_NEEDED" value="true"/>
+		<item key="jarOptionsWizardPage.SAVE_DESCRIPTION" value="false"/>
+		<item key="jarOptionsWizardPage.DESCRIPTION_LOCATION" value=""/>
+		<item key="JarManifestWizardPage.GENERATE_MANIFEST" value="true"/>
+		<item key="JarManifestWizardPage.SAVE_MANIFEST" value="false"/>
+		<item key="JarManifestWizardPage.REUSE_MANIFEST" value="false"/>
+		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
+		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
+		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\laura\Desktop\actividad_4.06.jar"/>
+		</list>
+		<section name="JarPackageWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="404"/>
+			<item key="DIALOG_Y_ORIGIN" value="142"/>
+			<item key="DIALOG_WIDTH" value="563"/>
+			<item key="DIALOG_HEIGHT" value="667"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="0"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item key="group_libraries" value="true"/>
+		<item key="layout" value="2"/>
+		<item key="rootMode" value="1"/>
+		<item key="linkWithEditor" value="false"/>
+		<item key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1734022305853&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;bndtools.jareditor.tempfiles.packageexplorer.filter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Users\laura\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre\bin\javadoc.exe;C:\Users\laura\Desktop\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="21"/>
+		<item key="antpath" value="C:\Users\laura\eclipse-workspace\ProyectoLibreria\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\laura\Desktop"/>
+		<section name="projects">
+			<section name="TrazasEntornos">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\TrazasEntornos\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\TrazasEntornos\javadoc.xml"/>
+			</section>
+			<section name="prog.unidad02.actividad206.Paralelogramo">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\prog.unidad02.actividad206.Paralelogramo\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\prog.unidad02.actividad206.Paralelogramo\javadoc.xml"/>
+			</section>
+			<section name="ExamenUnidad03">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\ExamenUnidad03\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\ExamenUnidad03\javadoc.xml"/>
+			</section>
+			<section name="EjecucionPasoAPaso">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\EjecucionPasoAPaso\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\EjecucionPasoAPaso\javadoc.xml"/>
+			</section>
+			<section name="Unidad 03">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Unidad 03\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Unidad 03\javadoc.xml"/>
+			</section>
+			<section name="ProyectoLibreria">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\Desktop"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\ProyectoLibreria\javadoc.xml"/>
+			</section>
+			<section name="Examen">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Examen\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Examen\javadoc.xml"/>
+			</section>
+			<section name="prueba">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\prueba\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\prueba\javadoc.xml"/>
+			</section>
+			<section name="Actividad3.05">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Actividad3.05\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Actividad3.05\javadoc.xml"/>
+			</section>
+			<section name="Act 2.02">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Act 2.02\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Act 2.02\javadoc.xml"/>
+			</section>
+			<section name="Ejercicios Resueltos">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Ejercicios Resueltos\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Ejercicios Resueltos\javadoc.xml"/>
+			</section>
+			<section name="ejercicio2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\ejercicio2\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\ejercicio2\javadoc.xml"/>
+			</section>
+			<section name="r02e03">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\r02e03\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\r02e03\javadoc.xml"/>
+			</section>
+			<section name="r02e02">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\r02e02\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\r02e02\javadoc.xml"/>
+			</section>
+			<section name="Actividad_4.02_solucion">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Actividad_4.02_solucion\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Actividad_4.02_solucion\javadoc.xml"/>
+			</section>
+			<section name="r02e05">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\r02e05\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\r02e05\javadoc.xml"/>
+			</section>
+			<section name="r02e04">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\r02e04\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\r02e04\javadoc.xml"/>
+			</section>
+			<section name="Actividad 2.03">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Actividad 2.03\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Actividad 2.03\javadoc.xml"/>
+			</section>
+			<section name="clase1">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\clase1\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\clase1\javadoc.xml"/>
+			</section>
+			<section name="ejerciciosRepeticion">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\ejerciciosRepeticion\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\ejerciciosRepeticion\javadoc.xml"/>
+			</section>
+			<section name="HolaMundo">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\HolaMundo\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\HolaMundo\javadoc.xml"/>
+			</section>
+			<section name="Repaso1">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Repaso1\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Repaso1\javadoc.xml"/>
+			</section>
+			<section name="proyecto">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\proyecto\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\proyecto\javadoc.xml"/>
+			</section>
+			<section name="Repaso2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Repaso2\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Repaso2\javadoc.xml"/>
+			</section>
+			<section name="Unidad04">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Unidad04\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Unidad04\javadoc.xml"/>
+			</section>
+			<section name="Actividad2.03">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\Actividad2.03\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\Actividad2.03\javadoc.xml"/>
+			</section>
+			<section name="SumaNumeros">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\laura\eclipse-workspace\SumaNumeros\doc"/>
+				<item key="antpath" value="C:\Users\laura\eclipse-workspace\SumaNumeros\javadoc.xml"/>
+			</section>
+		</section>
+	</section>
+	<section name="JavadocWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="122"/>
+		<item key="DIALOG_Y_ORIGIN" value="142"/>
+		<item key="DIALOG_WIDTH" value="845"/>
+		<item key="DIALOG_HEIGHT" value="616"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
